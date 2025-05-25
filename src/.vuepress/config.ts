@@ -1,4 +1,4 @@
-import { defineUserConfig } from "vuepress";
+.import { defineUserConfig } from "vuepress";
 
 import theme from "./theme.js";
 
@@ -16,7 +16,6 @@ export default defineUserConfig({
     editLinks: true, // 启用编辑链接
     editLinkText: '在 GitHub 上编辑此页', // 编辑链接的文本
   },
-};
 
   theme,
 
