@@ -7,42 +7,7 @@ export default navbar([
     text: "博文",
     icon: "pen-to-square",
     prefix: "/posts/",
-    children: [
-      {
-        text: "",
-        icon: "pen-to-square",
-        prefix: "",
-        children: [
-          { text: "", icon: "pen-to-square", link: "" },
-          { text: "", icon: "pen-to-square", link: "" },
-          "",
-          "",
-        ],
-      },
-      {
-        text:  "",
-        icon: "pen-to-square",
-        prefix: "",
-        children: [
-          {
-            text: "",
-            icon: "pen-to-square",
-            link: "",
-          },
-          {
-            text: "",
-            icon: "pen-to-square",
-            link: "",
-          },
-          "",
-          "",
-        ],
-      },
-      { text: "", icon: "pen-to-square", link: "" },
-      { text: "", icon: "pen-to-square", link: "" },
-      "",
-      "",
-    ],
+    children: "structure",
   },
   {
     text: "个人界面",
