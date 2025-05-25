@@ -185,6 +185,7 @@ export default hopeTheme({
     autoCatalog: {
       index: true
     },
+}
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
