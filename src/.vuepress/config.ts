@@ -1,4 +1,4 @@
-.import { defineUserConfig } from "vuepress";
+import { defineUserConfig } from "vuepress";
 
 import theme from "./theme.js";
 
