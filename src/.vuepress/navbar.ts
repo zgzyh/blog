@@ -46,7 +46,7 @@ export default navbar([
   },
   {
     text: "个人界面",
-    icon: "BsPersonFill",
+    icon: "user",
     link: "https://blog.wyyzxzyg.cn",
   },
 ]);
