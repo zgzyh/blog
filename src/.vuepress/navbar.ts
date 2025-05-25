@@ -7,7 +7,6 @@ export default navbar([
     text: "博文",
     icon: "pen-to-square",
     prefix: "/posts/",
-    children: "structure",
   },
   {
     text: "个人界面",
