@@ -24,7 +24,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "",
   displayFooter: true,
 
   // 博客相关
@@ -52,12 +52,12 @@ export default hopeTheme({
       //Linkedin: "https://example.com",
       //Pinterest: "https://example.com",
       //Pocket: "https://example.com",
-      QQ: "https://example.com",
+      QQ: "https://qm.qq.com/q/DByv18z5CM",
       //Qzone: "https://example.com",
       //Reddit: "https://example.com",
       //Rss: "https://example.com",
       //Steam: "https://example.com",
-      Twitter: "https://x.com/wyyzxzyg",
+      Twitter: "https://x.com/@wyyzxzyg",
       Wechat: "https://example.com",
       /*Weibo: "https://example.com",
       Whatsapp: "https://example.com",
