@@ -12,7 +12,7 @@ export default defineUserConfig({
   module.exports = {
   themeConfig: {
     repo: 'zgzyh/blog', // GitHub 仓库的 URL
-    docsDir: 'src/.vuepress/posts', // 文档所在目录，如果不是默认的 `docs` 目录，请更改此值
+    docsDir: 'src/posts', // 文档所在目录，如果不是默认的 `docs` 目录，请更改此值
     editLinks: true, // 启用编辑链接
     editLinkText: '在 GitHub 上编辑此页', // 编辑链接的文本
   },
