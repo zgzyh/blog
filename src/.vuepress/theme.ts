@@ -56,7 +56,7 @@ export default hopeTheme({
       //Qzone: "https://example.com",
       //Reddit: "https://example.com",
       //Rss: "https://example.com",
-      Steam: "https://example.com",
+      //Steam: "https://example.com",
       Twitter: "https://x.com/wyyzxzyg",
       Wechat: "https://example.com",
       /*Weibo: "https://example.com",
