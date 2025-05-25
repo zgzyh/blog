@@ -13,7 +13,7 @@ projects:
     desc: 提供资源下载
     link: https://download.yjggzs.top
 
-  <!-- - icon: link
+  - icon: link
     name: 链接名称
     desc: 链接详细描述
     link: https://链接地址
@@ -26,7 +26,7 @@ projects:
   - icon: newspaper
     name: 文章名称
     desc: 文章详细描述
-    link: https://你的文章链接 -->
+    link: https://你的文章链接
 
   - icon: user-group
     name: 友情链接
