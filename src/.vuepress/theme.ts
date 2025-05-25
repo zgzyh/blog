@@ -7,8 +7,8 @@ export default hopeTheme({
   hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "我願一直向著陽光",
+    url: "https://blog.wyyzxzyg.cn",
   },
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -29,23 +29,23 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "一个摆烂的开发者",
     intro: "/intro.html",
     medias: {
-      Baidu: "https://example.com",
+      /*Baidu: "https://example.com",
       BiliBili: "https://example.com",
       Bitbucket: "https://example.com",
       Dingding: "https://example.com",
       Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
+      Dribbble: "https://example.com",*/
+      Email: "mailto:2738226109@qq.com",
+      /*Evernote: "https://example.com",
       Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
+      Flipboard: "https://example.com",*/
+      Gitee: "https://gitee.com/zgzyh",
+      GitHub: "https://github.com/zgzyh",
       Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
+      Gmail: "mailto:j2738226109o@gmail.com",
       Instagram: "https://example.com",
       Lark: "https://example.com",
       Lines: "https://example.com",
@@ -59,10 +59,10 @@ export default hopeTheme({
       Steam: "https://example.com",
       Twitter: "https://example.com",
       Wechat: "https://example.com",
-      Weibo: "https://example.com",
+      /*Weibo: "https://example.com",
       Whatsapp: "https://example.com",
       Youtube: "https://example.com",
-      Zhihu: "https://example.com",
+      Zhihu: "https://example.com",*/
       VuePressThemeHope: {
         icon: "https://theme-hope-assets.vuejs.press/logo.svg",
         link: "https://theme-hope.vuejs.press",
