@@ -3,7 +3,7 @@ home: true
 layout: Blog
 icon: house
 title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: ./IMG_4366.png
 heroText: 我願一直向著陽光の博客
 heroFullScreen: true
 tagline: 欢迎访问我願一直向著陽光(ZGZYH)的博客
