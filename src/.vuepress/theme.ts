@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://blog.wyyzxzyg.cn",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "./IMG_4366.png",
 
   repo: "zgzyh/blog",
 
