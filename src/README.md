@@ -13,12 +13,12 @@ projects:
     desc: 提供资源下载
     link: https://download.yjggzs.top
 
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+  - icon: user
+    name: 个人介绍
+    desc: 基于Vue的个人介绍页面
+    link: https://blog.wyyzxzyg.cn
 
-  - icon: book
+  - icon: home
     name: 书籍名称
     desc: 书籍详细描述
     link: https://你的书籍链接
