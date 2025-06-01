@@ -18,7 +18,7 @@ projects:
     desc: 基于Vue的个人介绍页面
     link: https://blog.wyyzxzyg.cn
 
-  - icon: home
+  - icon: book
     name: 书籍名称
     desc: 书籍详细描述
     link: https://你的书籍链接
