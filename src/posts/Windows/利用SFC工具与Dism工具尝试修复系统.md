@@ -97,19 +97,16 @@ sfc /scannow
 ```
  `sfc/scnnow`将检查受保护的系统文件，并将损坏的文件替换为缓存的副本。 此过程完成后，将显示扫描结果。
 
-**扫描结果消息****相应操作**
-Windows 资源保护找不到任何完整性冲突。没有任何丢失或损坏的系统文件，无须操作。
-Windows 资源保护无法执行请求的操作。若要解决此问题，请在[安全模式下](https://support.microsoft.com/windows/windows-startup-settings-1af6ec8c-4d4a-4b23-adb7-e76eef0b847f)执行系统文件检查器扫描。
+| 扫描结果信息 | 相应操作 |
+| ----- | ----- |
+| Windows 资源保护找不到任何完整性冲突。 | 没有任何丢失或损坏的系统文件，无须操作。若要解决此问题，请在[安全模式下](https://support.microsoft.com/windows/windows-startup-settings-1af6ec8c-4d4a-4b23-adb7-e76eef0b847f)执行系统文件检查器扫描。 |
+| Windows 资源保护无法执行请求的操作。 | 确保**PendingDeletes**和**PendingRenames**文件夹位于 **%WinDir%\WinSxS\Temp**下。`%WinDir%`占位符表示 Windows 操作系统文件夹，例如 C：\Windows。 |
+| Windows 资源保护发现损坏的文件并成功修复了这些文件。操作成功。 | 若要查看有关系统文件扫描和还原的详细信息，请转到[如何查看系统文件检查器进程的详细信息](https://support.microsoft.com/zh-cn/topic/%E4%BD%BF%E7%94%A8%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E6%A3%80%E6%9F%A5%E5%99%A8%E5%B7%A5%E5%85%B7%E4%BF%AE%E5%A4%8D%E4%B8%A2%E5%A4%B1%E6%88%96%E6%8D%9F%E5%9D%8F%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6-79aa86cb-ca52-166a-92a3-966e85d4094e#bkmk_cbs_log)。 |
+| Windows 资源保护发现损坏的文件，但无法修复其中一些文件。 | 若要手动修复损坏的文件，请查看[系统文件检查器进程的详细信息](https://support.microsoft.com/zh-cn/topic/%E4%BD%BF%E7%94%A8%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E6%A3%80%E6%9F%A5%E5%99%A8%E5%B7%A5%E5%85%B7%E4%BF%AE%E5%A4%8D%E4%B8%A2%E5%A4%B1%E6%88%96%E6%8D%9F%E5%9D%8F%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6-79aa86cb-ca52-166a-92a3-966e85d4094e#bkmk_cbs_log)查找损坏的文件，然后[手动将损坏的文件替换为已知完好的文件副本](https://support.microsoft.com/zh-cn/topic/%E4%BD%BF%E7%94%A8%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E6%A3%80%E6%9F%A5%E5%99%A8%E5%B7%A5%E5%85%B7%E4%BF%AE%E5%A4%8D%E4%B8%A2%E5%A4%B1%E6%88%96%E6%8D%9F%E5%9D%8F%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6-79aa86cb-ca52-166a-92a3-966e85d4094e#bkmk_cbs_log)。
+|
 
-确保**PendingDeletes**和**PendingRenames**文件夹位于**%WinDir%\WinSxS\Temp**下
+### 3.总结
 
-`%WinDir%`占位符表示 Windows 操作系统文件夹，例如 C：\Windows。
-Windows 资源保护发现损坏的文件并成功修复了这些文件。操作成功。
-
-若要查看有关系统文件扫描和还原的详细信息，请转到[如何查看系统文件检查器进程的详细信息](https://support.microsoft.com/zh-cn/topic/%E4%BD%BF%E7%94%A8%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E6%A3%80%E6%9F%A5%E5%99%A8%E5%B7%A5%E5%85%B7%E4%BF%AE%E5%A4%8D%E4%B8%A2%E5%A4%B1%E6%88%96%E6%8D%9F%E5%9D%8F%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6-79aa86cb-ca52-166a-92a3-966e85d4094e#bkmk_cbs_log)。
-Windows 资源保护发现损坏的文件，但无法修复其中一些文件。若要手动修复损坏的文件，请查看[系统文件检查器进程的详细信息](https://support.microsoft.com/zh-cn/topic/%E4%BD%BF%E7%94%A8%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E6%A3%80%E6%9F%A5%E5%99%A8%E5%B7%A5%E5%85%B7%E4%BF%AE%E5%A4%8D%E4%B8%A2%E5%A4%B1%E6%88%96%E6%8D%9F%E5%9D%8F%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6-79aa86cb-ca52-166a-92a3-966e85d4094e#bkmk_cbs_log)查找损坏的文件，然后[手动将损坏的文件替换为已知完好的文件副本](https://support.microsoft.com/zh-cn/topic/%E4%BD%BF%E7%94%A8%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E6%A3%80%E6%9F%A5%E5%99%A8%E5%B7%A5%E5%85%B7%E4%BF%AE%E5%A4%8D%E4%B8%A2%E5%A4%B1%E6%88%96%E6%8D%9F%E5%9D%8F%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6-79aa86cb-ca52-166a-92a3-966e85d4094e#bkmk_cbs_log)。
-
-3.总结
 ----
 
 以上就是介绍Dism与SFC工具修复Windows系统的所有内容了，若有任何疑问或建议欢迎在评论区中指出
