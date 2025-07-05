@@ -105,8 +105,7 @@ sfc /scannow
 | Windows 资源保护发现损坏的文件，但无法修复其中一些文件。 | 若要手动修复损坏的文件，请查看[系统文件检查器进程的详细信息](https://support.microsoft.com/zh-cn/topic/%E4%BD%BF%E7%94%A8%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E6%A3%80%E6%9F%A5%E5%99%A8%E5%B7%A5%E5%85%B7%E4%BF%AE%E5%A4%8D%E4%B8%A2%E5%A4%B1%E6%88%96%E6%8D%9F%E5%9D%8F%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6-79aa86cb-ca52-166a-92a3-966e85d4094e#bkmk_cbs_log)查找损坏的文件，然后[手动将损坏的文件替换为已知完好的文件副本](https://support.microsoft.com/zh-cn/topic/%E4%BD%BF%E7%94%A8%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E6%A3%80%E6%9F%A5%E5%99%A8%E5%B7%A5%E5%85%B7%E4%BF%AE%E5%A4%8D%E4%B8%A2%E5%A4%B1%E6%88%96%E6%8D%9F%E5%9D%8F%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6-79aa86cb-ca52-166a-92a3-966e85d4094e#bkmk_cbs_log)。
 |
 
-### 3.总结
-
+总结
 ----
 
 以上就是介绍Dism与SFC工具修复Windows系统的所有内容了，若有任何疑问或建议欢迎在评论区中指出
