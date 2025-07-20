@@ -3,7 +3,7 @@ title: Windows
 index: false
 icon: <DiWindows />
 category:
-  - 使用指南
+  - 技术教程
 ---
 
 <Catalog />

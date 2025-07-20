@@ -4,16 +4,16 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "如何使用",
+      text: "VuePress教程",
       icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      prefix: "posts/VuePress教程/",
+      link: "posts/VuePress教程/",
       children: "structure",
     },
     {
       text: "文章",
       icon: "book",
-      prefix: "posts/",
+      prefix: "posts/Windows",
       children: "structure",
     },
     //"intro",
