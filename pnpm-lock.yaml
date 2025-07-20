@@ -11,6 +11,9 @@ importers:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.23
         version: 2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)
+      katex:
+        specifier: ^0.16.22
+        version: 0.16.22
       sass-embedded:
         specifier: ^1.88.0
         version: 1.89.0
@@ -3276,8 +3279,7 @@ snapshots:
 
   commander@13.1.0: {}
 
-  commander@8.3.0:
-    optional: true
+  commander@8.3.0: {}
 
   connect-history-api-fallback@2.0.0: {}
 
@@ -3579,7 +3581,6 @@ snapshots:
   katex@0.16.22:
     dependencies:
       commander: 8.3.0
-    optional: true
 
   kind-of@6.0.3: {}
 
