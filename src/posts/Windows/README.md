@@ -1,7 +1,7 @@
 ---
-title: VuePress教程
+title: Windows
 index: false
-icon: laptop-code
+icon: <DiWindows />
 category:
   - 使用指南
 ---
