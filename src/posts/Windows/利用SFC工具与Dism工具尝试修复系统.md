@@ -29,9 +29,6 @@ DISM可以联网将你当前的系统文件和官方的原镜像进行比对，�
 ### 1-1.快速检查 (CheckHealth)
 
 DISM 的`/CheckHealth`参数相当于给你的电脑做一个快速体检，它能够快速检测系统是否存在明显的问题，但不会进行深入的诊断或修复：
-
-/
-
 1.   使用`Windows + R`快捷键打开「运行」对话框，输入`cmd`，然后按`Ctrl + Shift + Enter`以管理员权限打开「命令提示符」。**（一定要以管理员身份运行！）**
 2.   执行以下命令，检查本地映像是否存在数据损坏：
 
@@ -103,10 +100,9 @@ sfc /scannow
 | Windows 资源保护无法执行请求的操作。 | 确保**PendingDeletes**和**PendingRenames**文件夹位于 **%WinDir%\WinSxS\Temp**下。`%WinDir%`占位符表示 Windows 操作系统文件夹，例如 C：\Windows。 |
 | Windows 资源保护发现损坏的文件并成功修复了这些文件。操作成功。 | 若要查看有关系统文件扫描和还原的详细信息，请转到[如何查看系统文件检查器进程的详细信息](https://support.microsoft.com/zh-cn/topic/%E4%BD%BF%E7%94%A8%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E6%A3%80%E6%9F%A5%E5%99%A8%E5%B7%A5%E5%85%B7%E4%BF%AE%E5%A4%8D%E4%B8%A2%E5%A4%B1%E6%88%96%E6%8D%9F%E5%9D%8F%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6-79aa86cb-ca52-166a-92a3-966e85d4094e#bkmk_cbs_log)。 |
 | Windows 资源保护发现损坏的文件，但无法修复其中一些文件。 | 若要手动修复损坏的文件，请查看[系统文件检查器进程的详细信息](https://support.microsoft.com/zh-cn/topic/%E4%BD%BF%E7%94%A8%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E6%A3%80%E6%9F%A5%E5%99%A8%E5%B7%A5%E5%85%B7%E4%BF%AE%E5%A4%8D%E4%B8%A2%E5%A4%B1%E6%88%96%E6%8D%9F%E5%9D%8F%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6-79aa86cb-ca52-166a-92a3-966e85d4094e#bkmk_cbs_log)查找损坏的文件，然后[手动将损坏的文件替换为已知完好的文件副本](https://support.microsoft.com/zh-cn/topic/%E4%BD%BF%E7%94%A8%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E6%A3%80%E6%9F%A5%E5%99%A8%E5%B7%A5%E5%85%B7%E4%BF%AE%E5%A4%8D%E4%B8%A2%E5%A4%B1%E6%88%96%E6%8D%9F%E5%9D%8F%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6-79aa86cb-ca52-166a-92a3-966e85d4094e#bkmk_cbs_log)。
-|
 
-### 3.总结
 
+总结
 ----
 
 以上就是介绍Dism与SFC工具修复Windows系统的所有内容了，若有任何疑问或建议欢迎在评论区中指出
