@@ -6,10 +6,11 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   hostname: "https://blogs.wyyzxzyg.cn",
 
-   math: {
+  math: {
       type: "katex", // 或 'mathjax'
     },
-    
+
+
   author: {
     name: "我願一直向著陽光",
     url: "https://blog.wyyzxzyg.cn",
