@@ -78,7 +78,7 @@ export default hopeTheme({
   // 加密配置
   encrypt: {
     config: {
-      "/posts/VuePress教程/encrypt.html": {
+      "/demo/encrypt.html": {
         hint: "Password: 1234",
         password: "1234",
       },
