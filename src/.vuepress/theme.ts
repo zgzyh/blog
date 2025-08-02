@@ -78,7 +78,7 @@ export default hopeTheme({
   // 加密配置
   encrypt: {
     config: {
-      "/demo/encrypt.html": {
+      "/posts/VuePress教程/encrypt.html": {
         hint: "Password: 1234",
         password: "1234",
       },
@@ -128,9 +128,8 @@ export default hopeTheme({
     vPre: true,
 
     // 取消注释它们如果你需要 TeX 支持
-    // math: {
-    //   // 启用前安装 katex
-    //   type: "katex",
+    math: {
+           type: "katex",
     //   // 或者安装 mathjax-full
     //   type: "mathjax",
     // },
