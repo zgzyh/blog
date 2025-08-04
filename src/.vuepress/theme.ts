@@ -6,11 +6,6 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   hostname: "https://blogs.wyyzxzyg.cn",
 
-  math: {
-      type: "katex", // 或 'mathjax'
-    },
-
-
   author: {
     name: "我願一直向著陽光",
     url: "https://blog.wyyzxzyg.cn",
@@ -128,12 +123,9 @@ export default hopeTheme({
     vPre: true,
 
     // 取消注释它们如果你需要 TeX 支持
-    // math: {
-    //   // 启用前安装 katex
-    //   type: "katex",
-    //   // 或者安装 mathjax-full
-    //   type: "mathjax",
-    // },
+    math: {
+           type: "katex",
+        },
 
     // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
     // revealjs: {

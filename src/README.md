@@ -11,7 +11,7 @@ projects:
   - icon: folder-open
     name: 下载站
     desc: 提供资源下载
-    link: https://download.yjggzs.top
+    link: https://download.juluo.org
 
   - icon: user
     name: 个人介绍
