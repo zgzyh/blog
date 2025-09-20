@@ -3,12 +3,13 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-    head: [
+   //网站看板娘
+   /* head: [
     [
       "script",
       { src: "https://live2d.xiaofa520.cn/autoload.js" }
     ]
-  ],
+  ],*/
   // 网站根路径
   
   base: "/",
