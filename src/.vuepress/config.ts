@@ -3,7 +3,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-   网站看板娘
+   // 网站看板娘
    head: [
     [
       "script",
