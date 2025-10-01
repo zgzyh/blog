@@ -7,7 +7,7 @@ export default defineUserConfig({
    head: [
     [
       "script",
-      { src: "https://live2d.xiaofa520.cn/api/models/" }
+      { src: "https://live2d.xiaofa520.cn/api/" }
     ]
   ],
   // 网站根路径
