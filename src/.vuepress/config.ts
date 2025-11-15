@@ -36,13 +36,13 @@ export default defineUserConfig({
     window.live2d_settings = window.live2d_settings || {};
     var s = window.live2d_settings;
 
-    // 后端接口（已替换为有效的官方 base URL，若使用自建 API 请改回你的地址并以 '/' 结尾）
+    // 后端接口
     s.modelAPI = 'https://live2d.xiaofa520.cn/live2d-widget/';
     s.hitokotoAPI = 'hitokoto.cn';
 
     // 默认模型
     s.modelId = 1;
-    s.modelTexturesId = 53;
+    s.modelTexturesId = 11;
 
     // 工具栏设置
     s.showToolMenu = true;
