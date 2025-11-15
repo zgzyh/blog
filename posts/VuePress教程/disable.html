@@ -29,13 +29,91 @@
         document.documentElement.setAttribute("data-theme", "dark");
       }
     </script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"布局与功能禁用","image":[""],"dateModified":"2025-07-20T05:00:06.000Z","author":[{"@type":"Person","name":"我願一直向著陽光","url":"https://blog.wyyzxzyg.cn"}]}</script><meta property="og:url" content="https://blogs.wyyzxzyg.cn/posts/VuePress%E6%95%99%E7%A8%8B/disable.html"><meta property="og:site_name" content="我願一直向著陽光の博客"><meta property="og:title" content="布局与功能禁用"><meta property="og:description" content="你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="og:updated_time" content="2025-07-20T05:00:06.000Z"><meta property="article:tag" content="禁用"><meta property="article:modified_time" content="2025-07-20T05:00:06.000Z"><link rel="stylesheet" type="text/css" href="https://live2d.xiaofa520.cn/live2d-widget/waifu.css"><script src="https://live2d.xiaofa520.cn/live2d-widget/jquery.min.js"></script><script src="https://live2d.xiaofa520.cn/live2d-widget/jquery-ui.min.js"></script><script src="https://live2d.xiaofa520.cn/live2d-widget/waifu-tips.js"></script><script src="https://live2d.xiaofa520.cn/live2d-widget/live2d.js"></script><script>(function(){document.addEventListener('DOMContentLoaded',function(){if(!document.querySelector('.waifu')){var d=document.createElement('div');d.innerHTML='<div class="waifu"><div class="waifu-tips"></div><canvas id="live2d" class="live2d"></canvas></div>';document.body.appendChild(d.firstElementChild||d);}window.live2d_settings=window.live2d_settings||{};window.live2d_settings.modelAPI='https://live2d.xiaofa520.cn/live2d-widget/';if(typeof initModel==='function')initModel('https://live2d.xiaofa520.cn/live2d-widget/waifu-tips.json');});})();</script><title>布局与功能禁用 | 我願一直向著陽光の博客</title><meta name="description" content="你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"布局与功能禁用","image":[""],"dateModified":"2025-07-20T05:00:06.000Z","author":[{"@type":"Person","name":"我願一直向著陽光","url":"https://blog.wyyzxzyg.cn"}]}</script><meta property="og:url" content="https://blogs.wyyzxzyg.cn/posts/VuePress%E6%95%99%E7%A8%8B/disable.html"><meta property="og:site_name" content="我願一直向著陽光の博客"><meta property="og:title" content="布局与功能禁用"><meta property="og:description" content="你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="og:updated_time" content="2025-07-20T05:00:06.000Z"><meta property="article:tag" content="禁用"><meta property="article:modified_time" content="2025-07-20T05:00:06.000Z"><link rel="stylesheet" type="text/css" href="https://live2d.xiaofa520.cn/live2d-widget/waifu.css"><script src="https://live2d.xiaofa520.cn/live2d-widget/jquery.min.js"></script><script src="https://live2d.xiaofa520.cn/live2d-widget/jquery-ui.min.js"></script><script src="https://live2d.xiaofa520.cn/live2d-widget/waifu-tips.js"></script><script src="https://live2d.xiaofa520.cn/live2d-widget/live2d.js"></script><script>(function(){
+  document.addEventListener('DOMContentLoaded', function () {
+    if (!document.querySelector('.waifu')) {
+      var container = document.createElement('div');
+      container.innerHTML = '' +
+        '<div class="waifu">' +
+          '<div class="waifu-tips"></div>' +
+          '<canvas id="live2d" class="live2d"></canvas>' +
+          '<div class="waifu-tool">' +
+            '<span class="fui-home"></span>' +
+            '<span class="fui-chat"></span>' +
+            '<span class="fui-eye"></span>' +
+            '<span class="fui-user"></span>' +
+            '<span class="fui-photo"></span>' +
+            '<span class="fui-info-circle"></span>' +
+            '<span class="fui-cross"></span>' +
+          '</div>' +
+        '</div>';
+      document.body.appendChild(container.firstElementChild || container);
+    }
+
+    window.live2d_settings = window.live2d_settings || {};
+    var s = window.live2d_settings;
+
+    // 后端接口（已替换为有效的官方 base URL，若使用自建 API 请改回你的地址并以 '/' 结尾）
+    s.modelAPI = 'https://live2d.xiaofa520.cn/live2d-widget/';
+    s.hitokotoAPI = 'hitokoto.cn';
+
+    // 默认模型
+    s.modelId = 0;
+    s.modelTexturesId = 53;
+
+    // 工具栏设置
+    s.showToolMenu = true;
+    s.canCloseLive2d = true;
+    s.canSwitchModel = true;
+    s.canSwitchTextures = true;
+    s.canSwitchHitokoto = true;
+    s.canTakeScreenshot = true;
+    s.canTurnToHomePage = true;
+    s.canTurnToAboutPage = false;
+
+    // 模型切换模式
+    s.modelStorage = true;
+    s.modelRandMode = 'switch';
+    s.modelTexturesRandMode = 'rand';
+
+    // 提示消息选项
+    s.showHitokoto = true;
+    s.showF12Status = true;
+    s.showF12Message = false;
+    s.showF12OpenMsg = true;
+    s.showCopyMessage = true;
+    s.showWelcomeMessage = true;
+
+    // 看板娘样式设置
+    s.waifuSize = '280x250';
+    s.waifuTipsSize = '250x70';
+    s.waifuFontSize = '14px';
+    s.waifuToolFont = '21px';
+    s.waifuToolLine = '28px';
+    s.waifuToolTop = '0px';
+    s.waifuMinWidth = '768px';
+    s.waifuEdgeSide = 'left:0';
+    s.waifuDraggable = 'disable';
+    s.waifuDraggableRevert = true;
+    s.homePageUrl = 'javascript:history.go(-1)';
+    s.screenshotCaptureName = 'live2d.png';
+
+    /* 在 initModel 前添加 */
+    if (typeof initModel === 'function') {
+      initModel('https://live2d.xiaofa520.cn/live2d-widget/waifu-tips.json');
+    } else {
+      setTimeout(function () {
+        if (typeof initModel === 'function') initModel('https://live2d.xiaofa520.cn/live2d-widget/waifu-tips.json');
+      }, 1000);
+    }
+  });
+})();</script><title>布局与功能禁用 | 我願一直向著陽光の博客</title><meta name="description" content="你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。">
     <link rel="preload" href="/assets/style-DKOu1cal.css" as="style"><link rel="stylesheet" href="/assets/style-DKOu1cal.css">
-    <link rel="modulepreload" href="/assets/app-BG6XvUPk.js"><link rel="modulepreload" href="/assets/disable.html-CnvTqkqp.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper-DlAUqK2U.js">
-    <link rel="prefetch" href="/assets/index.html-Dc9S2FLb.js" as="script"><link rel="prefetch" href="/assets/intro.html-Dqrpkc6M.js" as="script"><link rel="prefetch" href="/assets/示例.html-BLH6msFX.js" as="script"><link rel="prefetch" href="/assets/index.html-6dJChhgj.js" as="script"><link rel="prefetch" href="/assets/encrypt.html-BIZm8Ng7.js" as="script"><link rel="prefetch" href="/assets/layout.html-BLc8N9Sn.js" as="script"><link rel="prefetch" href="/assets/markdown.html-D-n7boG-.js" as="script"><link rel="prefetch" href="/assets/page.html-Bj_V6cEV.js" as="script"><link rel="prefetch" href="/assets/index.html-D4tTnnNJ.js" as="script"><link rel="prefetch" href="/assets/Windows网络问题.html-BXdeEtp9.js" as="script"><link rel="prefetch" href="/assets/Windows预览与体验计划加入方法.html-BNDmWiBL.js" as="script"><link rel="prefetch" href="/assets/利用SFC工具与Dism工具尝试修复系统.html-BNa3cTTq.js" as="script"><link rel="prefetch" href="/assets/安装系统材料及步骤.html-O9rwCy4e.js" as="script"><link rel="prefetch" href="/assets/常见蓝屏代码及解决方案.html-DMeRQZeQ.js" as="script"><link rel="prefetch" href="/assets/技巧.html-bB5aEROR.js" as="script"><link rel="prefetch" href="/assets/重装.html-DiA9qA8A.js" as="script"><link rel="prefetch" href="/assets/404.html-BOlzP3On.js" as="script"><link rel="prefetch" href="/assets/index.html-C67-kFSs.js" as="script"><link rel="prefetch" href="/assets/index.html-AYGpCxjz.js" as="script"><link rel="prefetch" href="/assets/index.html-BGWeSElX.js" as="script"><link rel="prefetch" href="/assets/index.html-Bhyq72eg.js" as="script"><link rel="prefetch" href="/assets/index.html-BSPOnyBp.js" as="script"><link rel="prefetch" href="/assets/index.html-L46itPS_.js" as="script"><link rel="prefetch" href="/assets/index.html-Ce2HcUlK.js" as="script"><link rel="prefetch" href="/assets/index.html-CoNUKdge.js" as="script"><link rel="prefetch" href="/assets/index.html-DGVQn0MF.js" as="script"><link rel="prefetch" href="/assets/index.html-BBfUE5xD.js" as="script"><link rel="prefetch" href="/assets/index.html-BZFyW8GW.js" as="script"><link rel="prefetch" href="/assets/index.html-BhJFv888.js" as="script"><link rel="prefetch" href="/assets/index.html-BgCldYuO.js" as="script"><link rel="prefetch" href="/assets/index.html-CI_vk1g6.js" as="script"><link rel="prefetch" href="/assets/index.html-CFNYDRLY.js" as="script"><link rel="prefetch" href="/assets/photoswipe.esm-DXWKOczD.js" as="script">
+    <link rel="modulepreload" href="/assets/app-BJNUui3C.js"><link rel="modulepreload" href="/assets/disable.html-CCzODJIz.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper-DlAUqK2U.js">
+    <link rel="prefetch" href="/assets/index.html-K-fomL27.js" as="script"><link rel="prefetch" href="/assets/intro.html-X2DW86_Z.js" as="script"><link rel="prefetch" href="/assets/示例.html-QiNe0UyQ.js" as="script"><link rel="prefetch" href="/assets/index.html-xXnjZZiY.js" as="script"><link rel="prefetch" href="/assets/encrypt.html-CSD9I-3d.js" as="script"><link rel="prefetch" href="/assets/layout.html-t1pYey1m.js" as="script"><link rel="prefetch" href="/assets/markdown.html-BiYqoKEj.js" as="script"><link rel="prefetch" href="/assets/page.html-BlrY1tEg.js" as="script"><link rel="prefetch" href="/assets/index.html-cMA6VySo.js" as="script"><link rel="prefetch" href="/assets/Windows网络问题.html-DfGJABTK.js" as="script"><link rel="prefetch" href="/assets/Windows预览与体验计划加入方法.html-BXQ0cxAk.js" as="script"><link rel="prefetch" href="/assets/利用SFC工具与Dism工具尝试修复系统.html-CjQdA-kC.js" as="script"><link rel="prefetch" href="/assets/安装系统材料及步骤.html-N2LZJhVZ.js" as="script"><link rel="prefetch" href="/assets/常见蓝屏代码及解决方案.html-sXEusVyw.js" as="script"><link rel="prefetch" href="/assets/技巧.html-B6lA2N1J.js" as="script"><link rel="prefetch" href="/assets/重装.html-DXZvH_rR.js" as="script"><link rel="prefetch" href="/assets/404.html-BFwyxYmo.js" as="script"><link rel="prefetch" href="/assets/index.html-DVCROSzH.js" as="script"><link rel="prefetch" href="/assets/index.html-DJpmBXf4.js" as="script"><link rel="prefetch" href="/assets/index.html-BhQPVHxG.js" as="script"><link rel="prefetch" href="/assets/index.html-OLdtMl4y.js" as="script"><link rel="prefetch" href="/assets/index.html-DXH1ph3I.js" as="script"><link rel="prefetch" href="/assets/index.html-CQ_KsZM_.js" as="script"><link rel="prefetch" href="/assets/index.html-pYdzw75H.js" as="script"><link rel="prefetch" href="/assets/index.html-1FVqcPNV.js" as="script"><link rel="prefetch" href="/assets/index.html-By4qjR1R.js" as="script"><link rel="prefetch" href="/assets/index.html-B-cZnNYq.js" as="script"><link rel="prefetch" href="/assets/index.html-Duoutb3X.js" as="script"><link rel="prefetch" href="/assets/index.html-bB0PC8Z7.js" as="script"><link rel="prefetch" href="/assets/index.html-BQwPnL_t.js" as="script"><link rel="prefetch" href="/assets/index.html-CjmBcoTp.js" as="script"><link rel="prefetch" href="/assets/index.html-Dq_3Ax3U.js" as="script"><link rel="prefetch" href="/assets/photoswipe.esm-DXWKOczD.js" as="script">
   </head>
   <body>
     <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><div class="theme-container no-navbar no-sidebar external-link-icon has-toc" vp-container><!----><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><aside id="sidebar" class="vp-sidebar" vp-sidebar><!----><ul class="vp-sidebar-links"></ul><!----></aside><!--[--><main id="main-content" class="vp-page"><!--[--><!----><!----><nav class="vp-breadcrumb disable"></nav><div class="vp-page-title"><h1><iconify-icon class="vp-icon" icon="fa6-solid:gears" height="1em" sizing="height"></iconify-icon>布局与功能禁用</h1><!----><hr></div><!----><div class="" vp-content><!----><div id="markdown-content"><p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p><!-- more --><p>本页面就是一个示例，禁用了如下功能:</p><ul><li>导航栏</li><li>侧边栏</li><li>路径导航</li><li>页面信息</li><li>贡献者</li><li>编辑此页链接</li><li>更新时间</li><li>上一篇/下一篇 链接</li><li>评论</li><li>页脚</li><li>返回顶部按钮</li></ul></div><!----><!----><!----></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><!----></div></footer><!----><!----><!----><!--]--></main><!--]--><!----></div><!--]--><!--[--><!----><!--[--><!--]--><!--]--><!--]--></div>
-    <script type="module" src="/assets/app-BG6XvUPk.js" defer></script>
+    <script type="module" src="/assets/app-BJNUui3C.js" defer></script>
   </body>
 </html>
