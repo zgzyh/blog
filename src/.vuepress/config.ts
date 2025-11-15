@@ -12,7 +12,7 @@ export default defineUserConfig({
     [
       'script',
       {},
-      `(function(){document.addEventListener('DOMContentLoaded',function(){if(!document.querySelector('.waifu')){var d=document.createElement('div');d.innerHTML='<div class="waifu"><div class="waifu-tips"></div><canvas id="live2d" class="live2d"></canvas></div>';document.body.appendChild(d.firstElementChild||d);}window.live2d_settings=window.live2d_settings||{};window.live2d_settings.modelAPI='不需要啦（x';if(typeof initModel==='function')initModel('https://live2d.xiaofa520.cn/live2d-widget/waifu-tips.json');});})();`
+      `(function(){document.addEventListener('DOMContentLoaded',function(){if(!document.querySelector('.waifu')){var d=document.createElement('div');d.innerHTML='<div class="waifu"><div class="waifu-tips"></div><canvas id="live2d" class="live2d"></canvas></div>';document.body.appendChild(d.firstElementChild||d);}window.live2d_settings=window.live2d_settings||{};window.live2d_settings.modelAPI='https://live2d.xiaofa520.cn/live2d-widget/';if(typeof initModel==='function')initModel('https://live2d.xiaofa520.cn/live2d-widget/waifu-tips.json');});})();`
     ],
   ],
 
