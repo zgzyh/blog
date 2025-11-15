@@ -73,7 +73,7 @@ export default defineUserConfig({
     s.waifuFontSize = '14px';
     s.waifuToolFont = '21px';
     s.waifuToolLine = '28px';
-    s.waifuToolTop = '0px';
+    s.waifuToolTop = '-45px';
     s.waifuMinWidth = '768px';
     s.waifuEdgeSide = 'left:0';
     s.waifuDraggable = 'disable';
