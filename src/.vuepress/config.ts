@@ -41,7 +41,7 @@ export default defineUserConfig({
     s.hitokotoAPI = 'hitokoto.cn';
 
     // 默认模型
-    s.modelId = 0;
+    s.modelId = 1;
     s.modelTexturesId = 53;
 
     // 工具栏设置
