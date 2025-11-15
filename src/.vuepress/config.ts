@@ -37,7 +37,7 @@ export default defineUserConfig({
     var s = window.live2d_settings;
 
     // 后端接口
-    s.modelAPI = 'https://live2d.xiaofa520.cn/live2d-widget/';
+    s.modelAPI = 'https://live2d.xiaofa520.cn/api/';
     s.hitokotoAPI = 'hitokoto.cn';
 
     // 默认模型
