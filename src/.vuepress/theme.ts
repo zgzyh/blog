@@ -163,7 +163,7 @@ export default hopeTheme({
 
      comment: {
        provider: "Waline",
-       serverURL: "https://waline-mu-kohl.vercel.app/",
+       serverURL: "https://commit.wyyzxzyg.cn/",
      },
 
     components: {
