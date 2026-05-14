@@ -12,7 +12,12 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.23",
+    "@vuepress/plugin-pwa": "2.0.0-rc.23",
+    "@waline/client": "^3.13.0",
+    "chart.js": "^4.5.1",
+    "echarts": "^5.5.0",
     "katex": "^0.16.22",
+    "mermaid": "^11.15.0",
     "sass-embedded": "^1.88.0",
     "vue": "^3.5.13",
     "vuepress": "2.0.0-rc.23",
