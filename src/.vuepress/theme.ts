@@ -179,6 +179,14 @@ export default hopeTheme({
       index: true
     },
 
+    // RSS 订阅
+    feed: {
+      // 默认同时生成 rss.xml、atom.xml、feed.json
+      rss: true,
+      atom: true,
+      json: true,
+    },
+
     // PWA 功能
     pwa: {
       favicon: "/favicon.ico",
