@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://blogs.wyyzxzyg.cn/atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+  <id>https://blogs.wyyzxzyg.cn/</id>
+  <title>我願一直向著陽光の博客</title>
+  <subtitle>我願一直向著陽光(ZGZYH)的博客</subtitle>
+  <updated>2026-09-07T06:29:28.521Z</updated>
+  <generator>@vuepress/plugin-feed</generator>
+  <link rel="self" href="https://blogs.wyyzxzyg.cn/atom.xml"/>
+  <link rel="alternate" href="https://blogs.wyyzxzyg.cn/"/>
+  <category term="使用指南"/>
+  <category term="指南"/>
+  <category term="技术教程"/>
+  <contributor>
+    <name>Ms.Hope</name>
+  </contributor>
+  <entry>
+    <title type="text">安装系统材料及步骤</title>
+    <id>https://blogs.wyyzxzyg.cn/posts/Windows/%E5%AE%89%E8%A3%85%E7%B3%BB%E7%BB%9F%E6%9D%90%E6%96%99%E5%8F%8A%E6%AD%A5%E9%AA%A4.html</id>
+    <link href="https://blogs.wyyzxzyg.cn/posts/Windows/%E5%AE%89%E8%A3%85%E7%B3%BB%E7%BB%9F%E6%9D%90%E6%96%99%E5%8F%8A%E6%AD%A5%E9%AA%A4.html"/>
+    <updated>2025-08-11T04:37:04.000Z</updated>
+    <summary type="html"><![CDATA[
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>本文章由<a href="https://space.bilibili.com/1978638720" target="_blank" rel="noopener noreferrer">@小妲最可爱</a>提供</p>
+</div>
+<hr>
+<h2>资源链接:</h2>
+<ul>
+<li><a href="https://www.123684.com/s/Gz5WTd-QEN23" target="_blank" rel="noopener noreferrer">镜像文件及激活工具</a></li>
+<li><a href="https://www.123684.com/s/Gz5WTd-EEN23" target="_blank" rel="noopener noreferrer">音乐文件分享</a></li>
+<li><a href="https://www.123684.com/s/Gz5WTd-6UN23" target="_blank" rel="noopener noreferrer">Windows美化包（不定时更新）</a></li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>本文章由<a href="https://space.bilibili.com/1978638720" target="_blank" rel="noopener noreferrer">@小妲最可爱</a>提供</p>
+</div>
+]]></content>
+    <published>2025-08-04T14:31:31.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">利用SFC工具与Dism工具尝试修复系统</title>
+    <id>https://blogs.wyyzxzyg.cn/posts/Windows/%E5%88%A9%E7%94%A8SFC%E5%B7%A5%E5%85%B7%E4%B8%8EDism%E5%B7%A5%E5%85%B7%E5%B0%9D%E8%AF%95%E4%BF%AE%E5%A4%8D%E7%B3%BB%E7%BB%9F.html</id>
+    <link href="https://blogs.wyyzxzyg.cn/posts/Windows/%E5%88%A9%E7%94%A8SFC%E5%B7%A5%E5%85%B7%E4%B8%8EDism%E5%B7%A5%E5%85%B7%E5%B0%9D%E8%AF%95%E4%BF%AE%E5%A4%8D%E7%B3%BB%E7%BB%9F.html"/>
+    <updated>2025-07-05T11:53:13.000Z</updated>
+    <summary type="html"><![CDATA[
+<p>如果某些 Windows 功能不工作或 Windows 崩溃，我们可以使用使用系统文件检查功能扫描 Windows 缺失或损坏的文件并还原文件</p>
+<h2>本文内容包括</h2>
+<ul>
+<li>
+<p>使用Dism映像部署工具诊断和修复系统</p>
+<ul>
+<li>基本原理</li>
+<li>快速检查 (CheckHealth)</li>
+<li>深入扫描 (ScanHealth)</li>
+<li>修复系统 (RestoreHealth)</li>
+<li>使用 install.wim 作为修复源（可选）</li>
+</ul>
+</li>
+<li>
+<p>使用sfc系统检查工具诊断和修复系统</p>
+<ul>
+<li>基本原理</li>
+<li>方法</li>
+</ul>
+</li>
+<li>
+<p>总结</p>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<p>如果某些 Windows 功能不工作或 Windows 崩溃，我们可以使用使用系统文件检查功能扫描 Windows 缺失或损坏的文件并还原文件</p>
+<p>本文内容包括</p>
+]]></content>
+    <published>2025-07-05T10:32:19.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">常见蓝屏代码及解决方案</title>
+    <id>https://blogs.wyyzxzyg.cn/posts/Windows/%E5%B8%B8%E8%A7%81%E8%93%9D%E5%B1%8F%E4%BB%A3%E7%A0%81%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html</id>
+    <link href="https://blogs.wyyzxzyg.cn/posts/Windows/%E5%B8%B8%E8%A7%81%E8%93%9D%E5%B1%8F%E4%BB%A3%E7%A0%81%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html"/>
+    <updated>2025-06-01T07:32:33.000Z</updated>
+    <summary type="html"><![CDATA[
+<hr>
+<h3>⚙️ <strong>一、核心硬件与内存相关错误</strong></h3>
+<ol>
+<li>
+<p><strong>0x0000000A (IRQL_NOT_LESS_OR_EQUAL)</strong></p>
+<ul>
+<li><strong>原因</strong>：驱动程序或软件尝试非法访问内存地址，常见于驱动冲突、硬件不兼容。</li>
+<li><strong>解决方案</strong>：
+<ul>
+<li>进入安全模式卸载近期安装的驱动或软件。</li>
+<li>使用“最后一次正确配置”启动（开机按F8）。</li>
+<li>更新主板BIOS和芯片组驱动。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>0x0000001A (MEMORY_MANAGEMENT)</strong></p>
+<ul>
+<li><strong>原因</strong>：内存硬件故障（如松动、损坏）或兼容性问题。</li>
+<li><strong>解决方案</strong>：
+<ul>
+<li>重新拔插内存条，用橡皮擦清理金手指。</li>
+<li>运行 <code>Windows内存诊断工具</code> 或第三方软件MemTest86+检测内存。</li>
+<li>更换内存条或调整BIOS内存时序。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>0x00000050 (PAGE_FAULT_IN_NONPAGED_AREA)</strong></p>
+<ul>
+<li><strong>原因</strong>：内存故障、软件冲突（如杀毒软件）或NTFS文件系统损坏。</li>
+<li><strong>解决方案</strong>：
+<ul>
+<li>安全模式下卸载近期安装的软件（尤其是安全类软件）。</li>
+<li>执行命令 <code>sfc /scannow</code> 修复系统文件，或运行 <code>chkdsk /f</code> 检查磁盘。</li>
+<li>测试内存硬件（同0x1A错误处理）。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[
+]]></content>
+    <published>2025-06-01T07:30:03.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Windows网络疑难解答</title>
+    <id>https://blogs.wyyzxzyg.cn/posts/Windows/Windows%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98.html</id>
+    <link href="https://blogs.wyyzxzyg.cn/posts/Windows/Windows%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98.html"/>
+    <updated>2025-07-05T11:10:01.000Z</updated>
+    <summary type="html"><![CDATA[
+<h3><strong>一、基础网络诊断</strong></h3>
+<ol>
+<li>
+<p><strong>网络连通性测试</strong></p>
+<ul>
+<li>
+<p>打开命令提示符（<code>Win + R</code> → 输入<code>cmd</code>），执行：</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">ping</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> www.baidu.com</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><ul>
+<li><strong>正常响应</strong>（显示TTL值）：网络物理连接正常，问题出在应用层</li>
+<li><strong>请求超时</strong>：检查路由器、网线或无线连接状态</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>DNS解析修复</strong></p>
+<ul>
+<li>
+<p>修改DNS服务器为公共DNS（如114.114.114.114或8.8.8.8）<br>
+路径：控制面板 → 网络和共享中心 → 更改适配器设置 → 双击当前网络 → IPv4属性</p>
+</li>
+<li>
+<p>执行DNS缓存刷新命令：</p>
+<div class="language-powershell line-numbers-mode" data-highlighter="shiki" data-ext="powershell" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">ipconfig </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">flushdns</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
+</ul>
+</li>
+<li>
+<p><strong>运行Windows网络疑难解答</strong></p>
+</li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[
+<h3><strong>一、基础网络诊断</strong></h3>
+<ol>
+<li>
+<p><strong>网络连通性测试</strong></p>
+<ul>
+<li>
+<p>打开命令提示符（<code>Win + R</code> → 输入<code>cmd</code>），执行：</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">ping</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> www.baidu.com</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><ul>
+<li><strong>正常响应</strong>（显示TTL值）：网络物理连接正常，问题出在应用层</li>
+<li><strong>请求超时</strong>：检查路由器、网线或无线连接状态</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>DNS解析修复</strong></p>
+<ul>
+<li>
+<p>修改DNS服务器为公共DNS（如114.114.114.114或8.8.8.8）<br>
+路径：控制面板 → 网络和共享中心 → 更改适配器设置 → 双击当前网络 → IPv4属性</p>
+</li>
+<li>
+<p>执行DNS缓存刷新命令：</p>
+<div class="language-powershell line-numbers-mode" data-highlighter="shiki" data-ext="powershell" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">ipconfig </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">flushdns</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
+</ul>
+</li>
+<li>
+<p><strong>运行Windows网络疑难解答</strong></p>
+</li>
+</ol>
+<ul>
+<li>可在<strong>设置-网络和Internet</strong>或<strong>设置-恢复-疑难解答-更多疑难解答选项</strong>选择<strong>Internet连接</strong>界面点击疑难解答或使用<strong>获取帮助</strong>来获取有关网络问题详细信息并尝试修复</li>
+</ul>
+]]></content>
+    <published>2025-06-01T06:45:49.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Windows预览与体验计划加入方法</title>
+    <id>https://blogs.wyyzxzyg.cn/posts/Windows/Windows%E9%A2%84%E8%A7%88%E4%B8%8E%E4%BD%93%E9%AA%8C%E8%AE%A1%E5%88%92%E5%8A%A0%E5%85%A5%E6%96%B9%E6%B3%95.html</id>
+    <link href="https://blogs.wyyzxzyg.cn/posts/Windows/Windows%E9%A2%84%E8%A7%88%E4%B8%8E%E4%BD%93%E9%AA%8C%E8%AE%A1%E5%88%92%E5%8A%A0%E5%85%A5%E6%96%B9%E6%B3%95.html"/>
+    <updated>2025-06-01T07:18:41.000Z</updated>
+    <summary type="html"><![CDATA[
+<h3><strong>一、常规加入Windows预览体验计划的方法</strong></h3>
+<ol>
+<li>
+<p><strong>操作步骤</strong></p>
+<ul>
+<li>打开系统设置（<code>Win + i</code>），进入<strong>Windows更新</strong> → <strong>Windows预览体验计划</strong></li>
+<li>点击<strong>即刻体验</strong>，登录微软账号（需注册为预览体验成员）</li>
+<li>根据提示开启<strong>诊断与反馈</strong>中的<strong>发送可选诊断数据</strong>（路径：设置 → 隐私和安全性 → 诊断和反馈）</li>
+</ul>
+</li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[
+<h3><strong>一、常规加入Windows预览体验计划的方法</strong></h3>
+<ol>
+<li>
+<p><strong>操作步骤</strong></p>
+<ul>
+<li>打开系统设置（<code>Win + i</code>），进入<strong>Windows更新</strong> → <strong>Windows预览体验计划</strong></li>
+<li>点击<strong>即刻体验</strong>，登录微软账号（需注册为预览体验成员）</li>
+<li>根据提示开启<strong>诊断与反馈</strong>中的<strong>发送可选诊断数据</strong>（路径：设置 → 隐私和安全性 → 诊断和反馈）</li>
+</ul>
+</li>
+</ol>
+<div class="hint-container warning">
+<p class="hint-container-title">注意事项</p>
+<ul>
+<li>需确保系统已激活且联网正常</li>
+<li>加入后需选择更新频道（如Dev、Beta或Release Preview），不同频道更新频率和稳定性不同</li>
+</ul>
+</div>
+]]></content>
+    <published>2025-06-01T06:45:49.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">禁用自动更新（专业版可用）</title>
+    <id>https://blogs.wyyzxzyg.cn/posts/Windows/%E9%87%8D%E8%A3%85.html</id>
+    <link href="https://blogs.wyyzxzyg.cn/posts/Windows/%E9%87%8D%E8%A3%85.html"/>
+    <updated>2025-06-01T06:45:49.000Z</updated>
+    <summary type="html"><![CDATA[<h3><strong>一、重装系统全流程图</strong></h3>
+<hr>
+<h3><strong>二、Windows系统重装</strong></h3>
+<h4>1. 官方纯净版安装（推荐方案）</h4>
+<p><strong>▸ 步骤详解：</strong></p>
+<ol>
+<li>
+<p><strong>制作启动盘</strong></p>
+<ul>
+<li>工具：微软媒体创建工具（<a href="https://www.microsoft.com/software-download" target="_blank" rel="noopener noreferrer">官网下载</a>）</li>
+<li>容量：≥8GB USB3.0闪存盘</li>
+<li>验证：<code>certutil -hashfile ISO镜像 SHA256</code> 校验完整性</li>
+</ul>
+</li>
+<li>
+<p><strong>BIOS关键设置</strong></p>
+<p>| 品牌    | 启动键 | 必改项                  |<br>
+|---------|--------|-------------------------|<br>
+| 联想    | F12    | 关闭Secure Boot         |<br>
+| 戴尔    | F2     | UEFI模式优先            |<br>
+| 华硕    | ESC    | 关闭Fast Startup        |</p>
+</li>
+<li>
+<p><strong>分区技巧</strong></p>
+<ul>
+<li>固态硬盘：删除所有分区→新建→自动对齐4K扇区</li>
+<li>机械硬盘：保留系统分区≥120GB（Win11要求64GB）</li>
+<li>陷阱规避：避免在已加密硬盘直接安装（需先解密）</li>
+</ul>
+</li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[<h3><strong>一、重装系统全流程图</strong></h3>
+]]></content>
+    <published>2025-06-01T06:45:49.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">嘿嘿嘿，这只是个示例</title>
+    <id>https://blogs.wyyzxzyg.cn/posts/Windows/%E6%8A%80%E5%B7%A7.html</id>
+    <link href="https://blogs.wyyzxzyg.cn/posts/Windows/%E6%8A%80%E5%B7%A7.html"/>
+    <updated>2025-05-29T14:30:22.000Z</updated>
+    <summary type="html"><![CDATA[
+<p>没有内容</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<p>没有内容</p>
+]]></content>
+    <published>2025-05-29T14:30:22.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">示例文档</title>
+    <id>https://blogs.wyyzxzyg.cn/posts/%E7%A4%BA%E4%BE%8B.html</id>
+    <link href="https://blogs.wyyzxzyg.cn/posts/%E7%A4%BA%E4%BE%8B.html"/>
+    <updated>2025-05-25T02:05:12.000Z</updated>
+    <summary type="html"><![CDATA[
+]]></summary>
+    <content type="html"><![CDATA[
+]]></content>
+    <published>2025-05-25T00:45:08.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">介绍页</title>
+    <id>https://blogs.wyyzxzyg.cn/intro.html</id>
+    <link href="https://blogs.wyyzxzyg.cn/intro.html"/>
+    <updated>2025-05-25T00:24:53.000Z</updated>
+    <summary type="html"><![CDATA[
+<p>将你的个人介绍和档案放置在此处。</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<p>将你的个人介绍和档案放置在此处。</p>
+]]></content>
+    <published>2025-05-25T00:24:53.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">VuePress教程</title>
+    <id>https://blogs.wyyzxzyg.cn/posts/VuePress%E6%95%99%E7%A8%8B/</id>
+    <link href="https://blogs.wyyzxzyg.cn/posts/VuePress%E6%95%99%E7%A8%8B/"/>
+    <updated>2025-07-20T05:10:23.000Z</updated>
+    <category term="使用指南"/>
+    <published>2025-05-25T00:24:53.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">布局与功能禁用</title>
+    <id>https://blogs.wyyzxzyg.cn/posts/VuePress%E6%95%99%E7%A8%8B/disable.html</id>
+    <link href="https://blogs.wyyzxzyg.cn/posts/VuePress%E6%95%99%E7%A8%8B/disable.html"/>
+    <updated>2025-07-20T05:00:06.000Z</updated>
+    <summary type="html"><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p>
+<!-- more -->
+<p>本页面就是一个示例，禁用了如下功能:</p>
+<ul>
+<li>导航栏</li>
+<li>侧边栏</li>
+<li>路径导航</li>
+<li>页面信息</li>
+<li>贡献者</li>
+<li>编辑此页链接</li>
+<li>更新时间</li>
+<li>上一篇/下一篇 链接</li>
+<li>评论</li>
+<li>页脚</li>
+<li>返回顶部按钮</li>
+</ul>
+]]></content>
+    <category term="使用指南"/>
+    <published>2025-05-25T00:24:53.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">密码加密的文章</title>
+    <id>https://blogs.wyyzxzyg.cn/posts/VuePress%E6%95%99%E7%A8%8B/encrypt.html</id>
+    <link href="https://blogs.wyyzxzyg.cn/posts/VuePress%E6%95%99%E7%A8%8B/encrypt.html"/>
+    <updated>2025-07-20T05:00:06.000Z</updated>
+    <summary type="html"><![CDATA[
+<p>实际的文章内容。</p>
+<p>段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。</p>
+<p>段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字。</p>
+]]></summary>
+    <content type="html"><![CDATA[
+<p>实际的文章内容。</p>
+<p>段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。</p>
+<p>段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字。</p>
+]]></content>
+    <category term="使用指南"/>
+    <published>2025-05-25T00:24:53.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">布局</title>
+    <id>https://blogs.wyyzxzyg.cn/posts/VuePress%E6%95%99%E7%A8%8B/layout.html</id>
+    <link href="https://blogs.wyyzxzyg.cn/posts/VuePress%E6%95%99%E7%A8%8B/layout.html"/>
+    <updated>2025-07-20T05:00:06.000Z</updated>
+    <summary type="html"><![CDATA[<p>布局包括:</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/navbar.html" target="_blank" rel="noopener noreferrer">导航栏</a></li>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html" target="_blank" rel="noopener noreferrer">侧边栏</a></li>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/footer.html" target="_blank" rel="noopener noreferrer">页脚</a></li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<p>布局包括:</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/navbar.html" target="_blank" rel="noopener noreferrer">导航栏</a></li>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html" target="_blank" rel="noopener noreferrer">侧边栏</a></li>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/footer.html" target="_blank" rel="noopener noreferrer">页脚</a></li>
+</ul>
+<p>同时每个页面包含:</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/breadcrumb.html" target="_blank" rel="noopener noreferrer">路径导航</a></li>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/feature/page-info.html" target="_blank" rel="noopener noreferrer">标题和页面信息</a></li>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/page.html#%E6%A0%87%E9%A2%98%E5%88%97%E8%A1%A8" target="_blank" rel="noopener noreferrer">TOC (文章标题列表)</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/feature/meta.html" target="_blank" rel="noopener noreferrer">贡献者、更新时间等页面元信息</a></li>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/feature/comment.html" target="_blank" rel="noopener noreferrer">评论</a></li>
+</ul>
+<p>主题也带有以下元素:</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/interface/darkmode.html" target="_blank" rel="noopener noreferrer">夜间模式按钮</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/interface/others.html#%E8%BF%94%E5%9B%9E%E9%A1%B6%E9%83%A8%E6%8C%89%E9%92%AE" target="_blank" rel="noopener noreferrer">返回顶部按钮</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/interface/others.html#%E6%89%93%E5%8D%B0%E6%8C%89%E9%92%AE" target="_blank" rel="noopener noreferrer">打印按钮</a></li>
+</ul>
+<p>你可以在主题选项和页面的 frontmatter 中自定义它们。</p>
+]]></content>
+    <category term="指南"/>
+    <published>2025-05-25T00:24:53.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Markdown 展示</title>
+    <id>https://blogs.wyyzxzyg.cn/posts/VuePress%E6%95%99%E7%A8%8B/markdown.html</id>
+    <link href="https://blogs.wyyzxzyg.cn/posts/VuePress%E6%95%99%E7%A8%8B/markdown.html"/>
+    <updated>2025-07-20T05:10:23.000Z</updated>
+    <summary type="html"><![CDATA[<p>VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。</p>
+<p>你需要创建并编写 Markdown，以便 VuePress 可以根据文件结构将它们转换为不同的页面。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。</p>
+<p>你需要创建并编写 Markdown，以便 VuePress 可以根据文件结构将它们转换为不同的页面。</p>
+<!-- more -->
+<h2>Markdown 介绍</h2>
+<p>如果你是一个新手，还不会编写 Markdown，请先阅读 <a href="https://theme-hope.vuejs.press/zh/cookbook/markdown/" target="_blank" rel="noopener noreferrer">Markdown 介绍</a> 和 <a href="https://theme-hope.vuejs.press/zh/cookbook/markdown/demo.html" target="_blank" rel="noopener noreferrer">Markdown 演示</a>。</p>
+<h2>Markdown 配置</h2>
+<p>VuePress 通过 Frontmatter 为每个 Markdown 页面引入配置。</p>
+<div class="hint-container important">
+<p class="hint-container-title">Frontmatter</p>
+<p>Frontmatter 是 VuePress 中很重要的一个概念，请阅读 <a href="https://theme-hope.vuejs.press/zh/cookbook/vuepress/page.html#front-matter" target="_blank" rel="noopener noreferrer">Frontmatter 介绍</a> 了解详情。</p>
+</div>
+<h2>Markdown 扩展</h2>
+<p>VuePress 会使用 <a href="https://github.com/markdown-it/markdown-it" target="_blank" rel="noopener noreferrer">markdown-it</a> 来解析 Markdown 内容，因此可以借助于 markdown-it 插件来实现 <a href="https://github.com/markdown-it/markdown-it#syntax-extensions" target="_blank" rel="noopener noreferrer">语法扩展</a> 。</p>
+<h3>VuePress 扩展</h3>
+<p>为了丰富文档写作，VuePress 对 Markdown 语法进行了扩展。</p>
+<p>关于这些扩展，请阅读 <a href="https://theme-hope.vuejs.press/zh/cookbook/vuepress/markdown.html" target="_blank" rel="noopener noreferrer">VuePress 中的 Markdown 扩展</a>。</p>
+<h3>主题扩展</h3>
+<p>通过 VuePress 插件，主题扩展了更多 Markdown 语法，提供更加丰富的写作功能。</p>
+<h4>选项卡</h4>
+
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/content/tabs.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4>脚注</h4>
+<p>此文字有脚注<sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup>.</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/content/footnote.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4>导入文件</h4>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/content/include.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4>TeX 语法</h4>
+<p v-pre="" class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><msup><mi mathvariant="normal">∂</mi><mi>r</mi></msup><mrow><mi mathvariant="normal">∂</mi><msup><mi>ω</mi><mi>r</mi></msup></mrow></mfrac><mrow><mo fence="true">(</mo><mfrac><msup><mi>y</mi><mi>ω</mi></msup><mi>ω</mi></mfrac><mo fence="true">)</mo></mrow><mo>=</mo><mrow><mo fence="true">(</mo><mfrac><msup><mi>y</mi><mi>ω</mi></msup><mi>ω</mi></mfrac><mo fence="true">)</mo></mrow><mrow><mo fence="true">{</mo><mo stretchy="false">(</mo><mi>log</mi><mo>⁡</mo><mi>y</mi><msup><mo stretchy="false">)</mo><mi>r</mi></msup><mo>+</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>r</mi></munderover><mfrac><mrow><mo stretchy="false">(</mo><mo>−</mo><mn>1</mn><msup><mo stretchy="false">)</mo><mi>i</mi></msup><mi>r</mi><mo>⋯</mo><mo stretchy="false">(</mo><mi>r</mi><mo>−</mo><mi>i</mi><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mi>log</mi><mo>⁡</mo><mi>y</mi><msup><mo stretchy="false">)</mo><mrow><mi>r</mi><mo>−</mo><mi>i</mi></mrow></msup></mrow><msup><mi>ω</mi><mi>i</mi></msup></mfrac><mo fence="true">}</mo></mrow></mrow><annotation encoding="application/x-tex">\frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right)
+= \left(\frac {y^{\omega}} {\omega}\right) \left\{(\log y)^r + \sum_{i=1}^r \frac {(-1)^i r \cdots (r-i+1) (\log y)^{r-i}} {\omega^i} \right\}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.4em;vertical-align:-0.95em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.5904em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3414em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">ω</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:3.0277em;vertical-align:-1.2777em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3414em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">ω</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size4">{</span></span><span class="mopen">(</span><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7144em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6514em;"><span style="top:-1.8723em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">i</span><span class="mrel mtight">=</span><span class="mord mtight">1</span></span></span></span><span style="top:-3.05em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.3em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.2777em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.5017em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7507em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mopen">(</span><span class="mord">−</span><span class="mord">1</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8247em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span></span></span></span></span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal">i</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">1</span><span class="mclose">)</span><span class="mopen">(</span><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8247em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span><span class="mbin mtight">−</span><span class="mord mathnormal mtight">i</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size4">}</span></span></span></span></span></span></span></p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/grammar/math.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4>任务列表</h4>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 计划 1</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 计划 2</label></li>
+</ul>
+<p><a href="https://theme-hope.vuejs.press/zh/guide/markdown/grammar/tasklist.html" target="_blank" rel="noopener noreferrer">查看详情</a></p>
+<h3>图片增强</h3>
+<p>支持为图片设置颜色模式和大小。</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/grammar/image.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4>上下角标</h4>
+<p>19<sup>th</sup> H<sub>2</sub>O</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/stylize/sup-sub.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4>组件</h4>
+]]></content>
+    <category term="使用指南"/>
+    <published>2025-05-25T00:24:53.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">页面配置</title>
+    <id>https://blogs.wyyzxzyg.cn/posts/VuePress%E6%95%99%E7%A8%8B/page.html</id>
+    <link href="https://blogs.wyyzxzyg.cn/posts/VuePress%E6%95%99%E7%A8%8B/page.html"/>
+    <updated>2025-07-20T05:00:06.000Z</updated>
+    <summary type="html"><![CDATA[<p><code>more</code> 注释之前的内容被视为文章摘要。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p><code>more</code> 注释之前的内容被视为文章摘要。</p>
+<!-- more -->
+<h2>页面标题</h2>
+<p>The first H1 title in Markdown will be regarded as page title.</p>
+<p>Markdown 中的第一个 H1 标题会被视为页面标题。</p>
+<p>你可以在 Markdown 的 Frontmatter 中设置页面标题。</p>
+<div class="language-md line-numbers-mode" data-highlighter="shiki" data-ext="md" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content>
+    <author>
+      <name>Ms.Hope</name>
+    </author>
+    <category term="使用指南"/>
+    <contributor>
+      <name>Ms.Hope</name>
+    </contributor>
+    <published>2020-01-01T00:00:00.000Z</published>
+    <rights>无版权</rights>
+  </entry>
+  <entry>
+    <title type="text">Windows</title>
+    <id>https://blogs.wyyzxzyg.cn/posts/Windows/</id>
+    <link href="https://blogs.wyyzxzyg.cn/posts/Windows/"/>
+    <updated>2025-07-20T05:16:31.000Z</updated>
+    <category term="技术教程"/>
+    <published>2025-05-25T00:24:53.000Z</published>
+  </entry>
+</feed>
