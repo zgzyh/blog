@@ -11,6 +11,9 @@ importers:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.23
         version: 2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1)
+      '@vuepress/plugin-feed':
+        specifier: 2.0.0-rc.23
+        version: 2.0.0-rc.23(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14))
       '@vuepress/plugin-pwa':
         specifier: 2.0.0-rc.23
         version: 2.0.0-rc.23(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14))
@@ -40,7 +43,7 @@ importers:
         version: 2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14)
       vuepress-theme-hope:
         specifier: 2.0.0-rc.88
-        version: 2.0.0-rc.88(@vuepress/plugin-pwa@2.0.0-rc.23(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14)))(@waline/client@3.13.0)(chart.js@4.5.1)(echarts@5.6.0)(katex@0.16.22)(markdown-it@14.1.0)(mermaid@11.15.0)(sass-embedded@1.89.0)(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14))
+        version: 2.0.0-rc.88(@vuepress/plugin-feed@2.0.0-rc.23(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14)))(@vuepress/plugin-pwa@2.0.0-rc.23(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14)))(@waline/client@3.13.0)(chart.js@4.5.1)(echarts@5.6.0)(katex@0.16.22)(markdown-it@14.1.0)(mermaid@11.15.0)(sass-embedded@1.89.0)(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14))
 
 packages:
 
@@ -1666,6 +1669,11 @@ packages:
     peerDependencies:
       vuepress: 2.0.0-rc.23
 
+  '@vuepress/plugin-feed@2.0.0-rc.23':
+    resolution: {integrity: sha512-2xqfGWMKlriXwwxEjL/VqzivZoLFwxQMmGIAY3UriX+PkVic/6yVFWGg7t8xuOt7GHttVoFzNxVEBVoLLfQrBg==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.9
+
   '@vuepress/plugin-git@2.0.0-rc.104':
     resolution: {integrity: sha512-Gw9aLcrMKJ+ThLCFSeYMZRXkW2tak3OhuwyObchij63SiR8G8I6EZWzGaZAT8ad3BUUcst6qLX6phXVkShtQWQ==}
     peerDependencies:
@@ -2036,6 +2044,10 @@ packages:
   cheerio@1.0.0:
     resolution: {integrity: sha512-quS9HgjQpdaXOvsZz82Oz7uxtXiy6UIsIQcpBj7HRw2M63Skasm9qlDocAM7jNuaxdhpPU7c4kJN+gA5MCu4ww==}
     engines: {node: '>=18.17'}
+
+  cheerio@1.0.0-rc.12:
+    resolution: {integrity: sha512-VqR8m68vM46BNnuZ5NtnGBKIE/DfN0cRIzg9n40EIq9NOv90ayxLBXA8fXC5gquFRGJSTRqBq25Jt2ECLR431Q==}
+    engines: {node: '>= 6'}
 
   chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
@@ -2664,6 +2676,9 @@ packages:
 
   html-void-elements@3.0.0:
     resolution: {integrity: sha512-bEqo66MRXsUGxWHV5IP0PUiAWwoEjba4VCzg0LjFJBpchPaTfyfCKTG6bc5F8ucKec3q5y6qOdGyYTSBEvhCrg==}
+
+  htmlparser2@8.0.2:
+    resolution: {integrity: sha512-GYdjWKDkbRLkZ5geuHs5NY1puJ+PXwP7+fHPRz06Eirsb9ugf6d8kkXav6ADhcODhFFPMIXyxkxSuMf3D6NCFA==}
 
   htmlparser2@9.1.0:
     resolution: {integrity: sha512-5zfg6mHUoaer/97TxnGpxmbR7zJtPwIYFMZ/H5ucTlPZhKvtum05yiPK3Mgai3a0DyVxv7qYqoweaEd2nrYQzQ==}
@@ -4139,6 +4154,10 @@ packages:
   wrap-ansi@6.2.0:
     resolution: {integrity: sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==}
     engines: {node: '>=8'}
+
+  xml-js@1.6.11:
+    resolution: {integrity: sha512-7rVi2KMfwfWFl+GpPg6m80IVMWXLRjO+PxTq7V2CDhoGak0wzYzFgUY2m4XJ47OGdXd8eLE8EmwfAmdjw7lC1g==}
+    hasBin: true
 
   y18n@4.0.3:
     resolution: {integrity: sha512-JKhqTOwSrqNA1NY5lSztJ1GrBiUodLMmIZuLiDaMRJ+itFd+ABVE8XBjOvIWL+rSqNDC74LCSFmlb/U4UZ4hJQ==}
@@ -5941,6 +5960,15 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
+  '@vuepress/plugin-feed@2.0.0-rc.23(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14))':
+    dependencies:
+      '@vuepress/helper': 2.0.0-rc.105(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14))
+      cheerio: 1.0.0-rc.12
+      vuepress: 2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14)
+      xml-js: 1.6.11
+    transitivePeerDependencies:
+      - typescript
+
   '@vuepress/plugin-git@2.0.0-rc.104(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14))':
     dependencies:
       '@vuepress/helper': 2.0.0-rc.104(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14))
@@ -6457,6 +6485,16 @@ snapshots:
       parse5-parser-stream: 7.1.2
       undici: 6.21.3
       whatwg-mimetype: 4.0.0
+
+  cheerio@1.0.0-rc.12:
+    dependencies:
+      cheerio-select: 2.1.0
+      dom-serializer: 2.0.0
+      domhandler: 5.0.3
+      domutils: 3.2.2
+      htmlparser2: 8.0.2
+      parse5: 7.3.0
+      parse5-htmlparser2-tree-adapter: 7.1.0
 
   chokidar@3.6.0:
     dependencies:
@@ -7210,6 +7248,13 @@ snapshots:
   hookable@5.5.3: {}
 
   html-void-elements@3.0.0: {}
+
+  htmlparser2@8.0.2:
+    dependencies:
+      domelementtype: 2.3.0
+      domhandler: 5.0.3
+      domutils: 3.2.2
+      entities: 4.5.0
 
   htmlparser2@9.1.0:
     dependencies:
@@ -8513,7 +8558,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  vuepress-theme-hope@2.0.0-rc.88(@vuepress/plugin-pwa@2.0.0-rc.23(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14)))(@waline/client@3.13.0)(chart.js@4.5.1)(echarts@5.6.0)(katex@0.16.22)(markdown-it@14.1.0)(mermaid@11.15.0)(sass-embedded@1.89.0)(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14)):
+  vuepress-theme-hope@2.0.0-rc.88(@vuepress/plugin-feed@2.0.0-rc.23(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14)))(@vuepress/plugin-pwa@2.0.0-rc.23(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14)))(@waline/client@3.13.0)(chart.js@4.5.1)(echarts@5.6.0)(katex@0.16.22)(markdown-it@14.1.0)(mermaid@11.15.0)(sass-embedded@1.89.0)(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14)):
     dependencies:
       '@vuepress/helper': 2.0.0-rc.105(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14))
       '@vuepress/plugin-active-header-links': 2.0.0-rc.103(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14))
@@ -8554,6 +8599,7 @@ snapshots:
       vuepress-plugin-md-enhance: 2.0.0-rc.88(chart.js@4.5.1)(echarts@5.6.0)(markdown-it@14.1.0)(mermaid@11.15.0)(sass-embedded@1.89.0)(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14))
       vuepress-shared: 2.0.0-rc.88(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14))
     optionalDependencies:
+      '@vuepress/plugin-feed': 2.0.0-rc.23(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14))
       '@vuepress/plugin-pwa': 2.0.0-rc.23(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0)(terser@5.47.1))(vue@3.5.14))
       sass-embedded: 1.89.0
     transitivePeerDependencies:
@@ -8776,6 +8822,10 @@ snapshots:
       ansi-styles: 4.3.0
       string-width: 4.2.3
       strip-ansi: 6.0.1
+
+  xml-js@1.6.11:
+    dependencies:
+      sax: 1.4.1
 
   y18n@4.0.3: {}
 

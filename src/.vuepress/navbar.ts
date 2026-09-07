@@ -17,4 +17,9 @@ export default navbar([
     icon: "user",
     link: "https://blog.wyyzxzyg.cn",
   },
+  {
+    text: "RSS",
+    icon: "rss",
+    link: "/rss.xml",
+  },
 ]);

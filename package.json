@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.23",
+    "@vuepress/plugin-feed": "2.0.0-rc.23",
     "@vuepress/plugin-pwa": "2.0.0-rc.23",
     "@waline/client": "^3.13.0",
     "chart.js": "^4.5.1",
